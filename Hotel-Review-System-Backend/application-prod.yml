@@ -1,0 +1,8 @@
+# Shared production hardening. Database schema validation is configured per service below.
+management:
+  endpoint:
+    health:
+      show-details: never
+logging:
+  level:
+    root: INFO
